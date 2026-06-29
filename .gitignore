@@ -1,47 +1,13 @@
-# -----------------------------
-# Python (FastAPI)
-# -----------------------------
+# Python
 env/
 venv/
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
+.env
 
-# -----------------------------
-# React / Node
 # React
-quick-frontend/node_modules/
-quick-frontend/dist/
-quick-frontend/build/
-# -----------------------------
-**/node_modules/
-**/dist/
+mart-frontend/node_modules/
+mart-frontend/dist/
 
-# -----------------------------
-# Environment variables
-# -----------------------------
-**/.env
-
-# -----------------------------
-# IDE / Editor
-# -----------------------------
+# VS Code
 .vscode/
-.idea/
-
-# -----------------------------
-# Logs
-# -----------------------------
-*.log
-
-# -----------------------------
-# Database
-# -----------------------------
-*.db
-*.sqlite3
-
-# -----------------------------
-# Operating System
-# -----------------------------
-.DS_Store
-Thumbs.db
